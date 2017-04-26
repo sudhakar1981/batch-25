@@ -21,8 +21,12 @@ abstract class A{
 	}
 }
 
-class B extends A{
+
+
+
+class C extends B{
 	void m1(){
 		System.out.println("m1() in Class B");
 	}
 }
+
