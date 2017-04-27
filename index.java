@@ -8,7 +8,7 @@ public class Abstract {
 		System.out.println(x instanceof A);
 		System.out.println(x instanceof B);
 		x.m1();//why it is displaying B class method?
-		x.m2();//why it is displaying A class method?
+		x.m2();//why it is displaying C class method?
 
 	}
 
@@ -17,7 +17,7 @@ public class Abstract {
 abstract class A{
 	abstract void m1();
 	void m2(){
-		System.out.println("m1() in class A");
+		System.out.println("m1() in class C");
 	}
 }
 
